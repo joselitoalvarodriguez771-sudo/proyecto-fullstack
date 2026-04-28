@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #F4F7F6; /* Fondo de Pantalla */
+  color: #2F3640; /* Texto Principal */
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #2C3E50; /* Barra Lateral */
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.sidebar a:hover {
+  background-color: #34495E;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #F4F7F6;
+}
+
+.card {
+  background-color: #FFFFFF; /* Tarjetas */
+  border: 1px solid #DCDDE1; /* Bordes */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+}
+
+.table th, .table td {
+  border: 1px solid #DCDDE1;
+  padding: 12px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #2C3E50;
+  color: white;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btn-add {
+  background-color: #27AE60; /* Stock Saludable */
+  color: white;
+}
+
+.btn-edit {
+  background-color: #3498DB; /* Información / Azul Tech */
+  color: white;
+}
+
+.btn-delete {
+  background-color: transparent;
+  color: #E74C3C; /* Sin Stock / Error */
+  border: 1px solid #E74C3C;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #2F3640;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #DCDDE1;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.status-healthy {
+  color: #27AE60;
+}
+
+.status-warning {
+  color: #F39C12;
+}
+
+.status-error {
+  color: #E74C3C;
+}
+
+.secondary-text {
+  color: #7F8C8D; /* Texto Secundario */
+}
